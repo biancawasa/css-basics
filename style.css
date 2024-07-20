@@ -1,0 +1,34 @@
+body{   background-color:#000000;
+    color:white; 
+ font-family: "Montserrat";
+}    
+
+/*esta clase corresponde a la barra de navegacion*/
+.barra {
+    position: fixed;
+    height: 100%;
+    width: 120px;
+    background-color: #3f0b69;
+    font-size: 12px;
+}
+.sidebar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+.sidebar-iteam:hover { 
+    background-color:#27045f; 
+}
+a:visited { text-decoration: none; }
+a { text-decoration: none; }
+#main {
+    margin-left: 120px; 
+}
+header { text-align: center;}
+#header-image {
+    max-width: 80%;
+    height: auto;
+}
